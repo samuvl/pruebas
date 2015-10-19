@@ -8,7 +8,6 @@
  *
  * @author alumno
  */
-public class login {
-    private String login;
-    private String passwordsenya;
+public class ventas {
+    
 }
