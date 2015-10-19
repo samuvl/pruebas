@@ -10,5 +10,5 @@
  */
 public class login {
     private String login;
-    private String password;
+    private String contrasenya;
 }
