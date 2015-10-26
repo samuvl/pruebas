@@ -17,7 +17,7 @@
     <deploy url="http://172.16.205.109/manager" username="admin" password="admin" path="/pruebas" war="./dist/pruebas.war"/>   
     </target>
     
-    <taskdef name="desplegarProduccion" classname="org.apache.catalina.ant.DeployTask" />
+    <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" />
 
     <!--
 
