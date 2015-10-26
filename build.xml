@@ -10,6 +10,13 @@
 <project name="pruebas" default="default" basedir=".">
     <description>Builds, tests, and runs the project pruebas.</description>
     <import file="nbproject/build-impl.xml"/>
+    
+    
+    <target name="desplegarProduccion"> 
+        <echo> Desplegando... </echo>
+    <deploy url="http://172.16.205.109/manager" username="admin" password="admin" path="/pruebas" war="./dist/pruebas.war"/>   
+    </target>
+    <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" />
     <!--
 
     There exist several targets which are by default empty and which can be 
