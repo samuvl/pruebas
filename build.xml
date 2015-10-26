@@ -15,9 +15,10 @@
     <target name="desplegarProduccion"> 
         <echo> Desplegando... </echo>
     <deploy url="http://172.16.205.109/manager" username="admin" password="admin" path="/pruebas" war="./dist/pruebas.war"/>   
-    <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" />
-
     </target>
+    
+    <taskdef name="desplegarProduccion" classname="org.apache.catalina.ant.DeployTask" />
+
     <!--
 
     There exist several targets which are by default empty and which can be 
