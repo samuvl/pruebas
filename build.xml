@@ -15,8 +15,9 @@
     <target name="desplegarProduccion"> 
         <echo> Desplegando... </echo>
     <deploy url="http://172.16.205.109/manager" username="admin" password="admin" path="/pruebas" war="./dist/pruebas.war"/>   
-    </target>
     <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" />
+
+    </target>
     <!--
 
     There exist several targets which are by default empty and which can be 
