@@ -5,10 +5,10 @@
               maxActive="5" 
               maxIdle="4" 
               maxWait="1" 
-              name="jdbc/banco" 
-              password="banco" 
+              name="jdbc/NUEVABD" 
+              password="nuevaPASSWORD" 
               type="javax.sql.DataSource" 
-              url="jdbc:mysql://localhost:3306/banco" 
+              url="jdbc:mysql://localhost:3306/NUEVABD" 
               username="banco" 
               validationQuery="SELECT 1 FROM dual"/>
 </Context>
